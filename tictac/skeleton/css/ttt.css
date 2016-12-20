@@ -1,0 +1,23 @@
+
+
+ul {
+   list-style: none;
+   width: 300px;
+}
+
+li {
+  display: inline-block;
+  border-color: black;
+  background-color: grey;
+  list-style: none;
+  border: 3px solid black;
+  height: 80px;
+  width: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+li:hover {
+  background-color: yellow;
+}

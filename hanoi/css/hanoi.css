@@ -1,0 +1,43 @@
+html, body, figure, ul, li {
+
+}
+
+ul {
+   list-style: none;
+   width: 400px;
+   text-align: center;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  border-color: black;
+  background-color: transparent;
+  list-style: none;
+  border: 3px solid black;
+  height: 80px;
+  width: 80px;
+  margin-top: 45px;
+  margin-left: 15px;
+  margin-bottom: 0;
+
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+li.disk1 {
+  width: 50px;
+  background-color: green;
+}
+
+li.disk2 {
+  width: 80px;
+  background-color: green;
+}
+
+li.disk3 {
+  width: 100px;
+  background-color: green;
+}
